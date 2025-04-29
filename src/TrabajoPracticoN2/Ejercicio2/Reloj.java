@@ -1,4 +1,4 @@
-package Ejercicio2;
+package TrabajoPracticoN2.Ejercicio2;
 
 public class Reloj {
 
