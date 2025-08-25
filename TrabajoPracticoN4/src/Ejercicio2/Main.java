@@ -27,10 +27,12 @@ public class Main {
 
 
 
-        //array2.rellenar1000();
-        //array2.Bubblesort();
-        //array2.sort();
-        //array2.mostrar();
+        array2.rellenar1000();
+        array2.Bubblesort();
+        array2.sort();
+        array2.mostrar();
+        long fin = System.nanoTime();
+        long duracion = fin - inicio;
 
 
 
@@ -51,7 +53,7 @@ public class Main {
 
         }*/
 
-        ProductoComparator[] listaProductos={
+       /* ProductoComparator[] listaProductos={
                 new ProductoComparator("Notebook",10,100.99),
                 new ProductoComparator("Mesa",12,51.88),
                 new ProductoComparator("Mochila",4,12.99),

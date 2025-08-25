@@ -24,7 +24,7 @@ public class ProductoComparable implements Comparable<ProductoComparable>{
     }
 
     @Override
-    public int compareTo(ProductoComparable otro) {
+    public int co4mpareTo(ProductoComparable otro) {
 
         return this.nombre.compareToIgnoreCase(otro.nombre);
     }
